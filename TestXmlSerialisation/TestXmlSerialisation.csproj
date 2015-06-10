@@ -30,6 +30,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Bender">
+      <HintPath>packages\Bender.3.0.10.0\lib\Bender.dll</HintPath>
+    </Reference>
+    <Reference Include="Flexo">
+      <HintPath>packages\flexo.1.0.3.0\lib\Flexo.dll</HintPath>
+    </Reference>
     <Reference Include="nunit.framework">
       <HintPath>packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
@@ -42,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BenderSerializer.cs" />
     <Compile Include="CustomerType.cs" />
     <Compile Include="MsSerializer.cs" />
     <Compile Include="ShoppingBasket.cs" />
